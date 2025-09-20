@@ -10,7 +10,7 @@
 
     <!-- Encabezado -->
     <header class="text-center py-4" style="background: linear-gradient(90deg, #ff512f, #f09819);">
-      <img src="/img/escudo.png" alt="Pollos Dumbo" style="height:100px; width:auto; filter: drop-shadow(0 4px 10px rgba(0,0,0,.2));">
+      <img src="./img/escudo.png" alt="Pollos Dumbo" style="height:100px; width:auto; filter: drop-shadow(0 4px 10px rgba(0,0,0,.2));">
       <h1 class="mt-2 mb-3 brand-text" style="color:#fff; text-shadow:1px 2px 4px rgba(0,0,0,.4);">Pollos Dumbo</h1>
       <div class="d-flex justify-content-center gap-3 flex-wrap">
         <RouterLink to="/" class="btn btn-light btn-lg fw-bold px-4">Inicio</RouterLink>
@@ -112,12 +112,12 @@ export default {
       horario: { open: "15:00", close: "21:00" },
       nowMins: this.getNowMins(),
       productos: [
-        { key:'entero',   tipo:'producto', nombre:'Pollo Entero Frito',      desc:'Ideal para compartir.',      img:'/img/entero.PNG',     precio: CATALOGO.pollo.entero },
-        { key:'broaster', tipo:'producto', nombre:'Pollo Broaster',          desc:'Crujiente y sabroso.',       img:'/img/broaster.jpg',   precio: CATALOGO.pollo.broaster },
-        { key:'frito',    tipo:'producto', nombre:'Pollo Frito Tradicional', desc:'Receta clásica de la casa.', img:'/img/spiedo.jpg',     precio: CATALOGO.pollo.frito },
-        { key:'arroz',    tipo:'porcion',  nombre:'Porción de Arroz',        desc:'Arroz blanco.',              img:'/img/arroz.PNG',      precio: CATALOGO.porciones.arroz },
-        { key:'papa',     tipo:'porcion',  nombre:'Papa Frita',              desc:'Porción de papas.',          img:'/img/papita.png',     precio: CATALOGO.porciones.papa },
-        { key:'fideo',    tipo:'porcion',  nombre:'Porción de Fideo',        desc:'Fideos al dente.',           img:'/img/fideo.PNG',      precio: CATALOGO.porciones.fideo },
+        { key:'entero',   tipo:'producto', nombre:'Pollo Entero Frito',      desc:'Ideal para compartir.',      img:'./img/entero.PNG',     precio: CATALOGO.pollo.entero },
+        { key:'broaster', tipo:'producto', nombre:'Pollo Broaster',          desc:'Crujiente y sabroso.',       img:'./img/broaster.jpg',   precio: CATALOGO.pollo.broaster },
+        { key:'frito',    tipo:'producto', nombre:'Pollo Frito Tradicional', desc:'Receta clásica de la casa.', img:'./img/spiedo.jpg',     precio: CATALOGO.pollo.frito },
+        { key:'arroz',    tipo:'porcion',  nombre:'Porción de Arroz',        desc:'Arroz blanco.',              img:'./img/arroz.PNG',      precio: CATALOGO.porciones.arroz },
+        { key:'papa',     tipo:'porcion',  nombre:'Papa Frita',              desc:'Porción de papas.',          img:'./img/papita.png',     precio: CATALOGO.porciones.papa },
+        { key:'fideo',    tipo:'porcion',  nombre:'Porción de Fideo',        desc:'Fideos al dente.',           img:'./img/fideo.PNG',      precio: CATALOGO.porciones.fideo },
       ],
     };
   },
@@ -132,9 +132,9 @@ export default {
       const marcas  = { coca:'Coca-Cola', fanta:'Fanta', sprite:'Sprite' };
 
       const imgs = {
-        coca:   { mini:'/img/coca_popular.png',  popular:'/img/coca_popular.png',  mediana:'/img/coca_popular.png' },
-        fanta:  { mini:'/img/fanta_mini.jpg',    popular:'/img/fanta_flaca.webp',  mediana:'/img/fanta_flaca.webp' },
-        sprite: { mini:'/img/sprite_mini.jpg',   popular:'/img/sprite_popular.webp', mediana:'/img/sprite_flaca.webp' },
+        coca:   { mini:'./img/coca_popular.png',  popular:'./img/coca_popular.png',  mediana:'./img/coca_popular.png' },
+        fanta:  { mini:'./img/fanta_mini.jpg',    popular:'./img/fanta_flaca.webp',  mediana:'./img/fanta_flaca.webp' },
+        sprite: { mini:'./img/sprite_mini.jpg',   popular:'./img/sprite_popular.webp', mediana:'./img/sprite_flaca.webp' },
       };
 
       const cards = [];

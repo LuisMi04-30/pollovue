@@ -9,7 +9,7 @@
       <div class="row g-0">
         <!-- Sidebar -->
         <aside class="col-lg-4 col-xl-3 side">
-          <img src="/img/escudo.png" alt="Pollos Dumbo" class="brand-logo" />
+          <img src="./img/escudo.png" alt="Pollos Dumbo" class="brand-logo" />
           <div class="brand-title">Pollos Dumbo</div>
 
           <div class="d-flex flex-column gap-2 w-100" style="max-width: 320px;">
@@ -118,11 +118,11 @@
                   <strong>Pago por QR</strong>
                   <p class="mb-2">Escanea este código para pagar y coloca la referencia si deseas.</p>
 
-                  <img src="/img/QR.jpg" alt="QR de pago Banco Unión" class="qr-img">
+                  <img src="./img/QR.jpg" alt="QR de pago Banco Unión" class="qr-img">
 
 
                   <!-- Botón para abrir el QR en otra pestaña -->
-                  <a href="/img/QR.jpg" target="_blank" class="btn btn-outline-secondary btn-sm mt-2">
+                  <a href="./img/QR.jpg" target="_blank" class="btn btn-outline-secondary btn-sm mt-2">
                     Abrir QR en otra pestaña
                   </a>
 

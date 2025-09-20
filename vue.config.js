@@ -1,4 +1,4 @@
-const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
-  transpileDependencies: true
-})
+/** Ajusta el nombre del repo si es distinto */
+module.exports = {
+  publicPath: "/pollitovue/",
+};

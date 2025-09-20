@@ -8,7 +8,7 @@
     <!-- Centro -->
     <div class="hero-wrap">
       <div class="container cta-zone" style="max-width:900px;">
-        <img src="/img/escudo.png" alt="Pollos Dumbo" class="logo" />
+        <img src="./img/escudo.png" alt="Pollos Dumbo" class="logo" />
         <h1 class="brand">Pollos Dumbo</h1>
         <p class="subtitle">¡El mejor pollo de Llallagua!</p>
         <p class="copy">
