@@ -1,26 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand bg-light px-3 shadow-sm">
+      <div class="container-fluid">
+        <RouterLink to="/" class="navbar-brand fw-bold">Pollos Dumbo</RouterLink>
+        <div class="ms-auto d-flex gap-2">
+          <RouterLink to="/" class="btn btn-sm btn-outline-secondary">Inicio</RouterLink>
+          <RouterLink to="/pollo" class="btn btn-sm btn-outline-primary">Menú</RouterLink>
+          <RouterLink to="/pedido" class="btn btn-sm btn-outline-success">Pedido</RouterLink>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contenido de las vistas -->
+    <router-view />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+export default { name: "App" };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
